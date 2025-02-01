@@ -1344,22 +1344,23 @@ footer .social-media li:hover {
 
 
 
-.Thanks {
-  background-color: rgb(234, 231, 238);
-  min-width: 50%;
+.thanks-container {
   width: 50%;
-  margin: auto;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: 0 auto;
   padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.Thanks h1 {
-  font-size: 50px;
-  color: #333;
+h2 {
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #666666;
 }
 
 /* media Screens */
