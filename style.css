@@ -224,7 +224,8 @@ li a{
       /* Mobile styles (up to 768px) */
 @media (max-width:768px){
   .text-box{
-    max-width: 90%;
+    top: 100px;
+    max-width: 100%;
     margin: 120px auto 0 auto;
     text-align: center;
   }
@@ -1354,12 +1355,12 @@ footer .social-media li:hover {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-h2 {
+.Thanks h2{
   color: #333333;
   margin-bottom: 15px;
 }
 
-p {
+.Thanks p {
   color: #666666;
 }
 
