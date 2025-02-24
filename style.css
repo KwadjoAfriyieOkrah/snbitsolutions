@@ -1355,12 +1355,20 @@ footer .social-media li:hover {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+<<<<<<< HEAD
 .Thanks h2{
+=======
+ .Thanks h2 {
+>>>>>>> eebdc30e2646ac787dc8a12180c12db565cbee83
   color: #333333;
   margin-bottom: 15px;
 }
 
+<<<<<<< HEAD
 .Thanks p {
+=======
+ .Thanks p{
+>>>>>>> eebdc30e2646ac787dc8a12180c12db565cbee83
   color: #666666;
 }
 
