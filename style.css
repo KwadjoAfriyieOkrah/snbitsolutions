@@ -1101,6 +1101,113 @@ footer .social-media li:hover {
   }
 }
 
+/* OUR Pathners */
+
+/* Main Container */
+.partners-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-header h2 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+  color: #333;
+  position: relative;
+}
+
+.section-header h2 {
+  position: relative;
+  padding: 0 20px;
+}
+
+.section-header h2::before,
+.section-header h2::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #333, transparent);
+}
+
+.section-header h2::before {
+  right: 80%;
+}
+
+.section-header h2::after {
+  left: 80%;
+}
+
+/* Partners Grid Layout */
+.partners-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Reduced gap between rows */
+}
+
+.partner-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Reduced gap between items */
+}
+
+.partner-item {
+  flex: 1;
+  max-width: 250px; /* Increased size */
+  min-width: 180px;
+  height: 120px; /* Increased height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.partner-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.partner-item img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: brightness(1) contrast(1);
+}
+
+.partner-item.empty {
+  visibility: hidden;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 900px) {
+  .partner-row {
+    flex-wrap: wrap;
+  }
+  .partner-item {
+    min-width: 160px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 600px) {
+  .partner-item {
+    min-width: 140px;
+    height: 100px;
+  }
+}
+
+/* 
 .Pathners {
   text-align: center;
   padding: 20px;
@@ -1155,7 +1262,7 @@ footer .social-media li:hover {
   transform: scale(1.1);
 }
 
-/* small screen  */
+
 @media (max-width: 600px) {
   .Section h2 {
     font-size: 18px;
@@ -1183,7 +1290,7 @@ footer .social-media li:hover {
   .Image__Row img {
     width: 120px;
   }
-}
+} */
 
 /*-----------------------ABOUT US.HTML-------------*/
 
