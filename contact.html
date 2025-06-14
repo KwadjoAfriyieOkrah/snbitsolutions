@@ -3,23 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SNB I.T Solutions</title>
+    <title>Solutions</title>
+    <link rel="icon" href="images/snb.png" type="image/png" sizes="256x256">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/94aa56387a.js" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
- <header class="sub-header">
-    <nav class="navbar">
+
+    <nav class="navbar"  style="position: sticky;">
         <a href="#" class="nav-logo" style="display: inline-block; text-decoration: none;">
-            <img src="images/snb.png" style="height: 90px; width: auto; max-width: 100%; display: block;">
+            <img src="images/snb.png" style="height: 90px; width: auto; max-width: 100%; display: block; color: white;">
         </a>
             <ul class="nav-menu">
                 <li class="nav-item">
@@ -41,6 +48,7 @@
                 <span class="bar"></span>
             </div>
     </nav>
+    <header class="sub-header">
     <div class="WORDING">
         <h1 class="TEXT">CONTACT US</h1> 
     </div>
@@ -53,49 +61,56 @@
 </section>
 
     <!------------------------------CONTACT SECTION--------------------------->
-    <section class="contact-us">
-        <div class="row">
-            <div class="contact">
-                <div>
-                    <i class="fa fa-home"></i>
-                    <span>
-                        <h5>Taifa burkina,headstart school</h5>
-                        <p>GE-266-2322 Saxon street Accra-Ghana</p>
-                    </span>
+    <div class="wrapper-color">
+        <section class="contact-us">
+            <div class="row  num-row">
+                <div class="contact">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Taifa burkina,headstart school</h5>
+                            <p>GE-266-2322 Saxon street Accra-Ghana</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+233 (0) 598-616-745 <br>+233 (0) 572-258-441</h5>
+                            <p> Mondays to Fridays, 9:00am to 5pm</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <span>
+                            <h5>snbitsolutions2@gmail.com</h5>
+                            <p>Email us your queries</p>
+                        </span>
+                    </div>
                 </div>
-                <div>
-                    <i class="fa fa-phone"></i>
-                    <span>
-                        <h5>+233 (0) 598-616-745+233<br> (0) 572-258-441</h5>
-                        <p> Mondays to Fridays, 9:00am to 5pm</p>
-                    </span>
-                </div>
-                <div>
-                    <i class="fa fa-envelope-o"></i>
-                    <span>
-                        <h5>snbitsolutions2@gmail.com</h5>
-                        <p>Email us your queries</p>
-                    </span>
+                <div class="contact-col">
+                    <form action="https://formsubmit.co/3f93632c14fec972ec09494c7c6cf0cc" method="POST">
+                        <!-- Honey Pot & Captcha -->
+                        <input type="text" name="_honey" style="display: none;">
+                        <input type="hidden" name="_captcha" value="false">
+                        
+                        <!--  Two Lines -->
+                        <input type="hidden" name="_next" value="https://kwadjoafriyieokrah.github.io/snbitsolutions/thank-you.html"> 
+                        <input type="hidden" name="_template" value="basic">
+                    
+                        <!-- Your Existing Fields -->
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter email address" required>
+                        <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                      </form>
                 </div>
             </div>
-            <div class="contact-col">
-                <form action="https://formsubmit.co/3f93632c14fec972ec09494c7c6cf0cc" method="POST">
-                        <!--honey pot-->
-              <input type="text" name="_honey" style="display: none;">
-                 <!--Disable Captcha-->
-                 <input type="hidden" name="_captcha" value="false"> 
-                 <!--success PAGE-->
-                 <input type="hidden" name="_next" value="https://kwadjoafriyieokrah.github.io/snbitsolutions/thank-you.html">
-                 <input type="hidden" name="_template" value="basic">
+        </section>
+    </div>
 
-                    <input type="text" name="name" placeholder="Enter your name" required>
-                    <input type="email"  name="email" placeholder="Enter email address" required>
-                    <textarea rows="8" name="Message" placeholder="Message" required></textarea>
-                    <button type="submit" name="submit" class="hero-btn red-btn">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
+    <div class="image-effect">
+        <img src="images/website image 5.jpg" alt="">
+    </div>
 <!--------------------------------------footer Section------------------------>
 <footer>
     <div class="container-div">
@@ -126,10 +141,10 @@
                     <li><i class="fa fa-envelope" style="margin-right: 5px;"></i><span>snbitsolutions2@gmail.com</span></li>
                 </ul>
                    <ul class="social-media" >
-                    <li><i class="fa fa-facebook fa"></i></li>
-                    <li><i class="fa fa-instagram fa"></i></li>
-                    <li><i class="fa fa-linkedin fa"></i></li>
-                    <li><i class="fa fa-twitter fa"></i></li>
+                    <li><i class="fab fa-facebook fa-lg"></i></li>
+                    <li><i class="fab fa-instagram fa-lg"></i></li>
+                    <li><i class="fab fa-linkedin-in fa-lg"></i></li>
+                    <li><i class="fab fa-twitter fa-lg"></i></li>
                 </ul>
             </div>
         </div>
