@@ -36,7 +36,7 @@ li a {
   z-index: 1000;
   display: flex;
   width: 100%;
-  background-color: #0d0d31;
+  background-color: #063247;
   height: 100px;
   justify-content: space-between;
   align-items: center;
@@ -78,7 +78,6 @@ li a {
 .nav-logo {
   display: flex;
   align-items: center;
-  color: #fff;
   text-decoration: none;
   height: 100%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -88,7 +87,6 @@ li a {
   height: auto;
   max-width: 120%;
   object-fit: contain;
-  color: #fff;
 }
 
 /* Mobile styles */
@@ -591,7 +589,7 @@ li a {
 }
 .marquee-item img {
   height: 80px;
-  width: auto;
+  width: 80px;
   max-width: 180px;
   object-fit: contain;
   transition: all 0.3s ease;
@@ -822,11 +820,7 @@ li a {
 .wrapper-color {
   margin-top: 10px;
   width: 100%;
-  background: linear-gradient(
-    145deg,
-    rgba(29, 14, 116, 0.9) 0%,
-    rgba(10, 30, 40, 0.9) 100%
-  );
+  background: rgba(204, 202, 214, 0.9);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
   padding: 40px 0;
 }
@@ -869,7 +863,7 @@ li a {
 .contact div .fa {
   font-size: 32px;
   color: rgb(73, 178, 219);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); */
 }
 .contact div .fas {
   font-size: 32px;
