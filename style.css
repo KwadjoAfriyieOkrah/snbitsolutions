@@ -22,12 +22,12 @@ img.lazy.loaded {
 }
 .nav-menu li {
   list-style: none;
-  color: #fff;
 }
 li a {
   text-decoration: none;
   font-size: x-large;
   font-weight: 600;
+  color: white;
 }
 .navbar {
   top: 0;
@@ -40,7 +40,6 @@ li a {
   height: 100px;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
   padding: 1rem;
   transition: all 0.3s ease;
 }
@@ -70,8 +69,8 @@ li a {
   font-weight: 400;
 }
 .nav-link:hover {
-  background-color: #725fee;
-  color: #fff;
+  background-color: #3d24e2;
+  color: #44a0f7;
   border-radius: 10px;
   border: 1px solid;
 }
@@ -99,7 +98,7 @@ li a {
 
   .nav-menu {
     position: fixed;
-    left: -100%;
+    right: -100%;
     top: 0;
     margin-top: 0;
     height: 100vh;
@@ -328,7 +327,7 @@ li a {
   text-align: center;
 }
 .course-image h3 {
-  font-size: 16px;
+  font-size: 20px;
   font-family: inherit;
   margin-bottom: 10px;
 }
