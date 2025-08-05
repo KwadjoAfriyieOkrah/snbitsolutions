@@ -853,6 +853,11 @@ li a {
   flex: 0 1 45%;
   margin-right: auto;
 }
+
+.contact .text-contact {
+  color: #0a4b6e;
+}
+
 .contact div {
   display: flex;
   align-items: flex-start;
